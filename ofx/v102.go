@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/bracomil/ofxgo/internal/sgml"
-	"github.com/bracomil/ofxgo/internal/textcodec"
+	"github.com/IsaqueB/ofx-reader/internal/sgml"
+	"github.com/IsaqueB/ofx-reader/internal/textcodec"
 )
 
 type v102Parser struct{}

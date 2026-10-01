@@ -17,7 +17,7 @@ Nesta primeira versão, o projeto implementa **OFX 1.0.2 (`VERSION:102`)**, base
 ## Instalação
 
 ```bash
-go get github.com/bracomil/ofxgo
+go get github.com/IsaqueB/ofx-reader
 ```
 
 > Enquanto o módulo não estiver publicado nesse endereço, use `replace` no `go.mod` ou altere o module path para o repositório onde você hospedar o projeto.
@@ -31,7 +31,7 @@ import (
     "fmt"
     "log"
 
-    "github.com/bracomil/ofxgo/ofx"
+    "github.com/IsaqueB/ofx-reader"
 )
 
 func main() {
